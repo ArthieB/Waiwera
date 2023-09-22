@@ -1,0 +1,5 @@
+run/*
+!run/gproblem4.*
+!run/*.json
+!run/*.listing
+output/

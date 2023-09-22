@@ -1,0 +1,7 @@
+run/*
+!run/goned.*
+!run/*.json
+!run/*.listing
+!run/*_ss.h5
+output/
+*.pyc

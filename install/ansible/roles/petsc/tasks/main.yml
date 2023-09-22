@@ -1,0 +1,62 @@
+---
+- name: Test for pre-existing PETSc install
+  command: pkg-config --exists PETSc
+  register: petsc_test
+  ignore_errors: True
+
+- name: Fetch PETSc from repository
+  git:
+    repo: "{{ petsc_repo }}"
+    dest: "{{ petsc_path }}"
+    version: "{{ petsc_version }}"
+    update: yes
+    force: yes
+  register: petsc_git
+  tags:
+    - fetch
+  when: (petsc_test is failed) or (petsc_update == 'true')
+
+- name: Build
+  block:
+    - name: configure
+      block:
+      - set_fact:
+          configure_cmd: "{{ './configure --'  + petsc_options | join(' --') }}"
+
+      - set_fact:
+          configure_cmd: "{{ configure_cmd + ' ' + petsc_options_compiler_release_native | join(' ') }}"
+        when: (petsc_arch == 'release') and (docker_run == false)
+
+      - set_fact:
+          configure_cmd: "{{ configure_cmd + ' ' + petsc_options_compiler_release_generic | join(' ') }}"
+        when: (petsc_arch == 'release') and (docker_run == true)
+
+      - name: Configure PETSc
+        command: "{{ configure_cmd }}"
+        args:
+          chdir: "{{ petsc_path }}"
+      tags:
+        - configure
+        - build
+
+    - name: Make
+      block:
+      - name: make all
+        make:
+          target: all
+          chdir: "{{ petsc_path }}"
+
+      - name: Make check
+        make:
+          target: check
+          chdir: "{{ petsc_path }}"
+      tags:
+        - make
+        - build
+
+    - name: Copy to pkgconfig
+      copy:
+        src: "{{ petsc_path + '/' + petsc_arch +  '/lib/pkgconfig/PETSc.pc' }}"
+        dest: "{{ lib_path }}/pkgconfig/"
+        remote_src: yes
+  when: ((petsc_git.changed == true) or (petsc_update == 'true') or (petsc_test is failed))

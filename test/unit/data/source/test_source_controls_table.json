@@ -1,0 +1,73 @@
+{
+    "title": "Test table source controls",
+    "mesh": "../test/unit/data/flow_simulation/mesh/4x3_2d.exo",
+    "tracer": [{"name": "foo"}, {"name": "bar"}],
+    "source": [
+        {"name": "rate table single source", "cell": 0,
+         "rate":[
+             [0.0, -1.0],
+             [60.0, -2.0],
+             [150.0, -3.5],
+             [252.0, -2.4]
+         ]},
+        {"name": "rate table 3 sources", "cells": [1, 6, 9],
+         "enthalpy": 83.93e3,
+         "rate": {"time": [
+             [0.0, 1.0],
+             [60.0, 2.0],
+             [150.0, 3.5],
+             [252.0, 2.4]
+         ]}
+        },
+        {"name": "enthalpy table", "cells": [2, 5],
+         "rate" : 10.0,
+         "averaging": "endpoint",
+         "enthalpy":[
+             [0., 83.e3],
+             [60., 105.e3],
+             [150., 120.e3],
+             [252., 135.e3]
+         ]},
+        {"name": "rate factor", "cell": 8,
+         "rate": [
+             [0.0, -1.0],
+             [30., -2.0],
+             [120., -3.0]],
+         "factor": {
+             "time": [
+                 [0.0, 1.0],
+                 [30.0, 0.75],
+                 [120.0, 0.0]],
+             "interpolation": "step"}
+        },
+        {"name": "const rate factor", "cell": 1,
+         "rate": [
+             [0.0, -1.0],
+             [30., -2.0],
+             [120., -3.0]],
+         "factor": 0.5
+        },
+        {"name": "tracer array", "cell": 2,
+         "rate": 10.,
+         "tracer": [[0., 0.],
+                    [60., 0.001],
+                    [90., 0.]],
+         "interpolation": "step"
+        },
+        {"name": "tracer dict all", "cell": 3,
+         "rate": 10.,
+         "tracer": {"foo": [[0., 0.],
+                            [60., 0.001],
+                            [90., 0.]],
+                    "bar": [[0., 0.001],
+                            [100, 0]]},
+         "interpolation": "step"
+        },
+        {"name": "tracer dict partial", "cell": 4,
+         "rate": 10.,
+         "tracer": {"bar": [[0., 0.001],
+                            [100, 0]]},
+         "interpolation": "step"
+        }
+    ]
+}

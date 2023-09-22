@@ -1,0 +1,6 @@
+run/*
+!run/gco2_one_cell.*
+!run/*.json
+!run/*.listing
+output/
+*.pyc
