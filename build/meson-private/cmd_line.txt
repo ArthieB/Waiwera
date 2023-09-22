@@ -1,0 +1,8 @@
+[options]
+libdir = lib
+set_rpath = true
+prefix = /home/arthie
+buildtype = release
+
+[properties]
+

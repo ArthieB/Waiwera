@@ -1,0 +1,1214 @@
+[
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_capillary_pressure.F90.o' -c ../src/capillary_pressure.F90",
+    "file": "../src/capillary_pressure.F90",
+    "output": "waiwera@exe/src_capillary_pressure.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_cell.F90.o' -c ../src/cell.F90",
+    "file": "../src/cell.F90",
+    "output": "waiwera@exe/src_cell.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_dag.F90.o' -c ../src/dag.F90",
+    "file": "../src/dag.F90",
+    "output": "waiwera@exe/src_dag.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_dictionary.F90.o' -c ../src/dictionary.F90",
+    "file": "../src/dictionary.F90",
+    "output": "waiwera@exe/src_dictionary.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_dm_utils.F90.o' -c ../src/dm_utils.F90",
+    "file": "../src/dm_utils.F90",
+    "output": "waiwera@exe/src_dm_utils.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_eos.F90.o' -c ../src/eos.F90",
+    "file": "../src/eos.F90",
+    "output": "waiwera@exe/src_eos.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_eos_setup.F90.o' -c ../src/eos_setup.F90",
+    "file": "../src/eos_setup.F90",
+    "output": "waiwera@exe/src_eos_setup.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_eos_wae.F90.o' -c ../src/eos_wae.F90",
+    "file": "../src/eos_wae.F90",
+    "output": "waiwera@exe/src_eos_wae.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_eos_wce.F90.o' -c ../src/eos_wce.F90",
+    "file": "../src/eos_wce.F90",
+    "output": "waiwera@exe/src_eos_wce.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_eos_we.F90.o' -c ../src/eos_we.F90",
+    "file": "../src/eos_we.F90",
+    "output": "waiwera@exe/src_eos_we.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_eos_w.F90.o' -c ../src/eos_w.F90",
+    "file": "../src/eos_w.F90",
+    "output": "waiwera@exe/src_eos_w.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_eos_wge.F90.o' -c ../src/eos_wge.F90",
+    "file": "../src/eos_wge.F90",
+    "output": "waiwera@exe/src_eos_wge.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_face.F90.o' -c ../src/face.F90",
+    "file": "../src/face.F90",
+    "output": "waiwera@exe/src_face.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_flow_simulation.F90.o' -c ../src/flow_simulation.F90",
+    "file": "../src/flow_simulation.F90",
+    "output": "waiwera@exe/src_flow_simulation.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_fluid.F90.o' -c ../src/fluid.F90",
+    "file": "../src/fluid.F90",
+    "output": "waiwera@exe/src_fluid.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_fson_mpi.F90.o' -c ../src/fson_mpi.F90",
+    "file": "../src/fson_mpi.F90",
+    "output": "waiwera@exe/src_fson_mpi.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_fson_utils.F90.o' -c ../src/fson_utils.F90",
+    "file": "../src/fson_utils.F90",
+    "output": "waiwera@exe/src_fson_utils.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_hdf5io.F90.o' -c ../src/hdf5io.F90",
+    "file": "../src/hdf5io.F90",
+    "output": "waiwera@exe/src_hdf5io.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_IAPWS.F90.o' -c ../src/IAPWS.F90",
+    "file": "../src/IAPWS.F90",
+    "output": "waiwera@exe/src_IAPWS.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_IFC67.F90.o' -c ../src/IFC67.F90",
+    "file": "../src/IFC67.F90",
+    "output": "waiwera@exe/src_IFC67.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_initial.F90.o' -c ../src/initial.F90",
+    "file": "../src/initial.F90",
+    "output": "waiwera@exe/src_initial.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_interpolation.F90.o' -c ../src/interpolation.F90",
+    "file": "../src/interpolation.F90",
+    "output": "waiwera@exe/src_interpolation.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_kinds.F90.o' -c ../src/kinds.F90",
+    "file": "../src/kinds.F90",
+    "output": "waiwera@exe/src_kinds.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_list.F90.o' -c ../src/list.F90",
+    "file": "../src/list.F90",
+    "output": "waiwera@exe/src_list.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_logfile.F90.o' -c ../src/logfile.F90",
+    "file": "../src/logfile.F90",
+    "output": "waiwera@exe/src_logfile.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_mesh.F90.o' -c ../src/mesh.F90",
+    "file": "../src/mesh.F90",
+    "output": "waiwera@exe/src_mesh.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_minc.F90.o' -c ../src/minc.F90",
+    "file": "../src/minc.F90",
+    "output": "waiwera@exe/src_minc.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_mpi_utils.F90.o' -c ../src/mpi_utils.F90",
+    "file": "../src/mpi_utils.F90",
+    "output": "waiwera@exe/src_mpi_utils.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_ncg_air_thermodynamics.F90.o' -c ../src/ncg_air_thermodynamics.F90",
+    "file": "../src/ncg_air_thermodynamics.F90",
+    "output": "waiwera@exe/src_ncg_air_thermodynamics.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_ncg_co2_thermodynamics.F90.o' -c ../src/ncg_co2_thermodynamics.F90",
+    "file": "../src/ncg_co2_thermodynamics.F90",
+    "output": "waiwera@exe/src_ncg_co2_thermodynamics.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_ncg_thermodynamics.F90.o' -c ../src/ncg_thermodynamics.F90",
+    "file": "../src/ncg_thermodynamics.F90",
+    "output": "waiwera@exe/src_ncg_thermodynamics.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_ode.F90.o' -c ../src/ode.F90",
+    "file": "../src/ode.F90",
+    "output": "waiwera@exe/src_ode.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_powertable.F90.o' -c ../src/powertable.F90",
+    "file": "../src/powertable.F90",
+    "output": "waiwera@exe/src_powertable.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_profiling.F90.o' -c ../src/profiling.F90",
+    "file": "../src/profiling.F90",
+    "output": "waiwera@exe/src_profiling.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_relative_permeability.F90.o' -c ../src/relative_permeability.F90",
+    "file": "../src/relative_permeability.F90",
+    "output": "waiwera@exe/src_relative_permeability.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_rock.F90.o' -c ../src/rock.F90",
+    "file": "../src/rock.F90",
+    "output": "waiwera@exe/src_rock.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_rock_control.F90.o' -c ../src/rock_control.F90",
+    "file": "../src/rock_control.F90",
+    "output": "waiwera@exe/src_rock_control.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_rock_setup.F90.o' -c ../src/rock_setup.F90",
+    "file": "../src/rock_setup.F90",
+    "output": "waiwera@exe/src_rock_setup.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_root_finder.F90.o' -c ../src/root_finder.F90",
+    "file": "../src/root_finder.F90",
+    "output": "waiwera@exe/src_root_finder.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_source_control.F90.o' -c ../src/source_control.F90",
+    "file": "../src/source_control.F90",
+    "output": "waiwera@exe/src_source_control.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_source.F90.o' -c ../src/source.F90",
+    "file": "../src/source.F90",
+    "output": "waiwera@exe/src_source.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_source_setup.F90.o' -c ../src/source_setup.F90",
+    "file": "../src/source_setup.F90",
+    "output": "waiwera@exe/src_source_setup.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_thermodynamics.F90.o' -c ../src/thermodynamics.F90",
+    "file": "../src/thermodynamics.F90",
+    "output": "waiwera@exe/src_thermodynamics.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_thermodynamics_setup.F90.o' -c ../src/thermodynamics_setup.F90",
+    "file": "../src/thermodynamics_setup.F90",
+    "output": "waiwera@exe/src_thermodynamics_setup.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_timestepper.F90.o' -c ../src/timestepper.F90",
+    "file": "../src/timestepper.F90",
+    "output": "waiwera@exe/src_timestepper.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_tracer.F90.o' -c ../src/tracer.F90",
+    "file": "../src/tracer.F90",
+    "output": "waiwera@exe/src_tracer.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_utils.F90.o' -c ../src/utils.F90",
+    "file": "../src/utils.F90",
+    "output": "waiwera@exe/src_utils.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_version.F90.o' -c ../src/version.F90",
+    "file": "../src/version.F90",
+    "output": "waiwera@exe/src_version.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_zone.F90.o' -c ../src/zone.F90",
+    "file": "../src/zone.F90",
+    "output": "waiwera@exe/src_zone.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_zone_label.F90.o' -c ../src/zone_label.F90",
+    "file": "../src/zone_label.F90",
+    "output": "waiwera@exe/src_zone_label.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@exe -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@exe -o 'waiwera@exe/src_waiwera.F90.o' -c ../src/waiwera.F90",
+    "file": "../src/waiwera.F90",
+    "output": "waiwera@exe/src_waiwera.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_capillary_pressure.F90.o' -c ../src/capillary_pressure.F90",
+    "file": "../src/capillary_pressure.F90",
+    "output": "waiwera@sha/src_capillary_pressure.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_cell.F90.o' -c ../src/cell.F90",
+    "file": "../src/cell.F90",
+    "output": "waiwera@sha/src_cell.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_dag.F90.o' -c ../src/dag.F90",
+    "file": "../src/dag.F90",
+    "output": "waiwera@sha/src_dag.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_dictionary.F90.o' -c ../src/dictionary.F90",
+    "file": "../src/dictionary.F90",
+    "output": "waiwera@sha/src_dictionary.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_dm_utils.F90.o' -c ../src/dm_utils.F90",
+    "file": "../src/dm_utils.F90",
+    "output": "waiwera@sha/src_dm_utils.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_eos.F90.o' -c ../src/eos.F90",
+    "file": "../src/eos.F90",
+    "output": "waiwera@sha/src_eos.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_eos_setup.F90.o' -c ../src/eos_setup.F90",
+    "file": "../src/eos_setup.F90",
+    "output": "waiwera@sha/src_eos_setup.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_eos_wae.F90.o' -c ../src/eos_wae.F90",
+    "file": "../src/eos_wae.F90",
+    "output": "waiwera@sha/src_eos_wae.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_eos_wce.F90.o' -c ../src/eos_wce.F90",
+    "file": "../src/eos_wce.F90",
+    "output": "waiwera@sha/src_eos_wce.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_eos_we.F90.o' -c ../src/eos_we.F90",
+    "file": "../src/eos_we.F90",
+    "output": "waiwera@sha/src_eos_we.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_eos_w.F90.o' -c ../src/eos_w.F90",
+    "file": "../src/eos_w.F90",
+    "output": "waiwera@sha/src_eos_w.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_eos_wge.F90.o' -c ../src/eos_wge.F90",
+    "file": "../src/eos_wge.F90",
+    "output": "waiwera@sha/src_eos_wge.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_face.F90.o' -c ../src/face.F90",
+    "file": "../src/face.F90",
+    "output": "waiwera@sha/src_face.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_flow_simulation.F90.o' -c ../src/flow_simulation.F90",
+    "file": "../src/flow_simulation.F90",
+    "output": "waiwera@sha/src_flow_simulation.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_fluid.F90.o' -c ../src/fluid.F90",
+    "file": "../src/fluid.F90",
+    "output": "waiwera@sha/src_fluid.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_fson_mpi.F90.o' -c ../src/fson_mpi.F90",
+    "file": "../src/fson_mpi.F90",
+    "output": "waiwera@sha/src_fson_mpi.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_fson_utils.F90.o' -c ../src/fson_utils.F90",
+    "file": "../src/fson_utils.F90",
+    "output": "waiwera@sha/src_fson_utils.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_hdf5io.F90.o' -c ../src/hdf5io.F90",
+    "file": "../src/hdf5io.F90",
+    "output": "waiwera@sha/src_hdf5io.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_IAPWS.F90.o' -c ../src/IAPWS.F90",
+    "file": "../src/IAPWS.F90",
+    "output": "waiwera@sha/src_IAPWS.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_IFC67.F90.o' -c ../src/IFC67.F90",
+    "file": "../src/IFC67.F90",
+    "output": "waiwera@sha/src_IFC67.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_initial.F90.o' -c ../src/initial.F90",
+    "file": "../src/initial.F90",
+    "output": "waiwera@sha/src_initial.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_interpolation.F90.o' -c ../src/interpolation.F90",
+    "file": "../src/interpolation.F90",
+    "output": "waiwera@sha/src_interpolation.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_kinds.F90.o' -c ../src/kinds.F90",
+    "file": "../src/kinds.F90",
+    "output": "waiwera@sha/src_kinds.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_list.F90.o' -c ../src/list.F90",
+    "file": "../src/list.F90",
+    "output": "waiwera@sha/src_list.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_logfile.F90.o' -c ../src/logfile.F90",
+    "file": "../src/logfile.F90",
+    "output": "waiwera@sha/src_logfile.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_mesh.F90.o' -c ../src/mesh.F90",
+    "file": "../src/mesh.F90",
+    "output": "waiwera@sha/src_mesh.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_minc.F90.o' -c ../src/minc.F90",
+    "file": "../src/minc.F90",
+    "output": "waiwera@sha/src_minc.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_mpi_utils.F90.o' -c ../src/mpi_utils.F90",
+    "file": "../src/mpi_utils.F90",
+    "output": "waiwera@sha/src_mpi_utils.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_ncg_air_thermodynamics.F90.o' -c ../src/ncg_air_thermodynamics.F90",
+    "file": "../src/ncg_air_thermodynamics.F90",
+    "output": "waiwera@sha/src_ncg_air_thermodynamics.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_ncg_co2_thermodynamics.F90.o' -c ../src/ncg_co2_thermodynamics.F90",
+    "file": "../src/ncg_co2_thermodynamics.F90",
+    "output": "waiwera@sha/src_ncg_co2_thermodynamics.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_ncg_thermodynamics.F90.o' -c ../src/ncg_thermodynamics.F90",
+    "file": "../src/ncg_thermodynamics.F90",
+    "output": "waiwera@sha/src_ncg_thermodynamics.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_ode.F90.o' -c ../src/ode.F90",
+    "file": "../src/ode.F90",
+    "output": "waiwera@sha/src_ode.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_powertable.F90.o' -c ../src/powertable.F90",
+    "file": "../src/powertable.F90",
+    "output": "waiwera@sha/src_powertable.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_profiling.F90.o' -c ../src/profiling.F90",
+    "file": "../src/profiling.F90",
+    "output": "waiwera@sha/src_profiling.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_relative_permeability.F90.o' -c ../src/relative_permeability.F90",
+    "file": "../src/relative_permeability.F90",
+    "output": "waiwera@sha/src_relative_permeability.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_rock.F90.o' -c ../src/rock.F90",
+    "file": "../src/rock.F90",
+    "output": "waiwera@sha/src_rock.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_rock_control.F90.o' -c ../src/rock_control.F90",
+    "file": "../src/rock_control.F90",
+    "output": "waiwera@sha/src_rock_control.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_rock_setup.F90.o' -c ../src/rock_setup.F90",
+    "file": "../src/rock_setup.F90",
+    "output": "waiwera@sha/src_rock_setup.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_root_finder.F90.o' -c ../src/root_finder.F90",
+    "file": "../src/root_finder.F90",
+    "output": "waiwera@sha/src_root_finder.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_source_control.F90.o' -c ../src/source_control.F90",
+    "file": "../src/source_control.F90",
+    "output": "waiwera@sha/src_source_control.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_source.F90.o' -c ../src/source.F90",
+    "file": "../src/source.F90",
+    "output": "waiwera@sha/src_source.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_source_setup.F90.o' -c ../src/source_setup.F90",
+    "file": "../src/source_setup.F90",
+    "output": "waiwera@sha/src_source_setup.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_thermodynamics.F90.o' -c ../src/thermodynamics.F90",
+    "file": "../src/thermodynamics.F90",
+    "output": "waiwera@sha/src_thermodynamics.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_thermodynamics_setup.F90.o' -c ../src/thermodynamics_setup.F90",
+    "file": "../src/thermodynamics_setup.F90",
+    "output": "waiwera@sha/src_thermodynamics_setup.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_timestepper.F90.o' -c ../src/timestepper.F90",
+    "file": "../src/timestepper.F90",
+    "output": "waiwera@sha/src_timestepper.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_tracer.F90.o' -c ../src/tracer.F90",
+    "file": "../src/tracer.F90",
+    "output": "waiwera@sha/src_tracer.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_utils.F90.o' -c ../src/utils.F90",
+    "file": "../src/utils.F90",
+    "output": "waiwera@sha/src_utils.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_version.F90.o' -c ../src/version.F90",
+    "file": "../src/version.F90",
+    "output": "waiwera@sha/src_version.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_zone.F90.o' -c ../src/zone.F90",
+    "file": "../src/zone.F90",
+    "output": "waiwera@sha/src_zone.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_zone_label.F90.o' -c ../src/zone_label.F90",
+    "file": "../src/zone_label.F90",
+    "output": "waiwera@sha/src_zone_label.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iwaiwera@sha -I. -I.. -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jwaiwera@sha -o 'waiwera@sha/src_waiwera.F90.o' -c ../src/waiwera.F90",
+    "file": "../src/waiwera.F90",
+    "output": "waiwera@sha/src_waiwera.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iunit_test_utils@sha -I. -I.. -Iwaiwera@sha -I/home/arthie/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -Junit_test_utils@sha -o 'unit_test_utils@sha/unit_test_utils.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/unit_test_utils.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/unit_test_utils.F90",
+    "output": "unit_test_utils@sha/unit_test_utils.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Icapillary_pressure_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jcapillary_pressure_test_lib@sta -o 'capillary_pressure_test_lib@sta/capillary_pressure_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/capillary_pressure_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/capillary_pressure_test.F90",
+    "output": "capillary_pressure_test_lib@sta/capillary_pressure_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Icapillary_pressure_test@exe -I. -I.. -Icapillary_pressure_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jcapillary_pressure_test@exe -o 'capillary_pressure_test@exe/meson-generated_.._capillary_pressure_test_driver.F90.o' -c capillary_pressure_test_driver.F90",
+    "file": "capillary_pressure_test_driver.F90",
+    "output": "capillary_pressure_test@exe/meson-generated_.._capillary_pressure_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Icapillary_pressure_test@exe -I. -I.. -Icapillary_pressure_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jcapillary_pressure_test@exe -o 'capillary_pressure_test@exe/capillary_pressure_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/capillary_pressure_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/capillary_pressure_test.F90",
+    "output": "capillary_pressure_test@exe/capillary_pressure_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Icell_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jcell_test_lib@sta -o 'cell_test_lib@sta/cell_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/cell_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/cell_test.F90",
+    "output": "cell_test_lib@sta/cell_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Icell_test@exe -I. -I.. -Icell_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jcell_test@exe -o 'cell_test@exe/meson-generated_.._cell_test_driver.F90.o' -c cell_test_driver.F90",
+    "file": "cell_test_driver.F90",
+    "output": "cell_test@exe/meson-generated_.._cell_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Icell_test@exe -I. -I.. -Icell_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jcell_test@exe -o 'cell_test@exe/cell_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/cell_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/cell_test.F90",
+    "output": "cell_test@exe/cell_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Idag_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jdag_test_lib@sta -o 'dag_test_lib@sta/dag_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/dag_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/dag_test.F90",
+    "output": "dag_test_lib@sta/dag_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Idag_test@exe -I. -I.. -Idag_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jdag_test@exe -o 'dag_test@exe/meson-generated_.._dag_test_driver.F90.o' -c dag_test_driver.F90",
+    "file": "dag_test_driver.F90",
+    "output": "dag_test@exe/meson-generated_.._dag_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Idag_test@exe -I. -I.. -Idag_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jdag_test@exe -o 'dag_test@exe/dag_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/dag_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/dag_test.F90",
+    "output": "dag_test@exe/dag_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Idictionary_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jdictionary_test_lib@sta -o 'dictionary_test_lib@sta/dictionary_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/dictionary_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/dictionary_test.F90",
+    "output": "dictionary_test_lib@sta/dictionary_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Idictionary_test@exe -I. -I.. -Idictionary_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jdictionary_test@exe -o 'dictionary_test@exe/meson-generated_.._dictionary_test_driver.F90.o' -c dictionary_test_driver.F90",
+    "file": "dictionary_test_driver.F90",
+    "output": "dictionary_test@exe/meson-generated_.._dictionary_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Idictionary_test@exe -I. -I.. -Idictionary_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jdictionary_test@exe -o 'dictionary_test@exe/dictionary_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/dictionary_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/dictionary_test.F90",
+    "output": "dictionary_test@exe/dictionary_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Idm_utils_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jdm_utils_test_lib@sta -o 'dm_utils_test_lib@sta/dm_utils_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/dm_utils_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/dm_utils_test.F90",
+    "output": "dm_utils_test_lib@sta/dm_utils_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Idm_utils_test@exe -I. -I.. -Idm_utils_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jdm_utils_test@exe -o 'dm_utils_test@exe/meson-generated_.._dm_utils_test_driver.F90.o' -c dm_utils_test_driver.F90",
+    "file": "dm_utils_test_driver.F90",
+    "output": "dm_utils_test@exe/meson-generated_.._dm_utils_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Idm_utils_test@exe -I. -I.. -Idm_utils_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jdm_utils_test@exe -o 'dm_utils_test@exe/dm_utils_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/dm_utils_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/dm_utils_test.F90",
+    "output": "dm_utils_test@exe/dm_utils_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ieos_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jeos_test_lib@sta -o 'eos_test_lib@sta/eos_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_test.F90",
+    "output": "eos_test_lib@sta/eos_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ieos_test@exe -I. -I.. -Ieos_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jeos_test@exe -o 'eos_test@exe/meson-generated_.._eos_test_driver.F90.o' -c eos_test_driver.F90",
+    "file": "eos_test_driver.F90",
+    "output": "eos_test@exe/meson-generated_.._eos_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ieos_test@exe -I. -I.. -Ieos_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jeos_test@exe -o 'eos_test@exe/eos_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_test.F90",
+    "output": "eos_test@exe/eos_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ieos_we_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jeos_we_test_lib@sta -o 'eos_we_test_lib@sta/eos_we_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_we_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_we_test.F90",
+    "output": "eos_we_test_lib@sta/eos_we_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ieos_we_test@exe -I. -I.. -Ieos_we_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jeos_we_test@exe -o 'eos_we_test@exe/meson-generated_.._eos_we_test_driver.F90.o' -c eos_we_test_driver.F90",
+    "file": "eos_we_test_driver.F90",
+    "output": "eos_we_test@exe/meson-generated_.._eos_we_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ieos_we_test@exe -I. -I.. -Ieos_we_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jeos_we_test@exe -o 'eos_we_test@exe/eos_we_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_we_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_we_test.F90",
+    "output": "eos_we_test@exe/eos_we_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ieos_wge_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jeos_wge_test_lib@sta -o 'eos_wge_test_lib@sta/eos_wge_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_wge_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_wge_test.F90",
+    "output": "eos_wge_test_lib@sta/eos_wge_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ieos_wge_test@exe -I. -I.. -Ieos_wge_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jeos_wge_test@exe -o 'eos_wge_test@exe/meson-generated_.._eos_wge_test_driver.F90.o' -c eos_wge_test_driver.F90",
+    "file": "eos_wge_test_driver.F90",
+    "output": "eos_wge_test@exe/meson-generated_.._eos_wge_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ieos_wge_test@exe -I. -I.. -Ieos_wge_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jeos_wge_test@exe -o 'eos_wge_test@exe/eos_wge_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_wge_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_wge_test.F90",
+    "output": "eos_wge_test@exe/eos_wge_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ieos_w_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jeos_w_test_lib@sta -o 'eos_w_test_lib@sta/eos_w_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_w_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_w_test.F90",
+    "output": "eos_w_test_lib@sta/eos_w_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ieos_w_test@exe -I. -I.. -Ieos_w_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jeos_w_test@exe -o 'eos_w_test@exe/meson-generated_.._eos_w_test_driver.F90.o' -c eos_w_test_driver.F90",
+    "file": "eos_w_test_driver.F90",
+    "output": "eos_w_test@exe/meson-generated_.._eos_w_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ieos_w_test@exe -I. -I.. -Ieos_w_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jeos_w_test@exe -o 'eos_w_test@exe/eos_w_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_w_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/eos_w_test.F90",
+    "output": "eos_w_test@exe/eos_w_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iface_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jface_test_lib@sta -o 'face_test_lib@sta/face_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/face_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/face_test.F90",
+    "output": "face_test_lib@sta/face_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iface_test@exe -I. -I.. -Iface_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jface_test@exe -o 'face_test@exe/meson-generated_.._face_test_driver.F90.o' -c face_test_driver.F90",
+    "file": "face_test_driver.F90",
+    "output": "face_test@exe/meson-generated_.._face_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iface_test@exe -I. -I.. -Iface_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jface_test@exe -o 'face_test@exe/face_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/face_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/face_test.F90",
+    "output": "face_test@exe/face_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iflow_simulation_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jflow_simulation_test_lib@sta -o 'flow_simulation_test_lib@sta/flow_simulation_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/flow_simulation_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/flow_simulation_test.F90",
+    "output": "flow_simulation_test_lib@sta/flow_simulation_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iflow_simulation_test@exe -I. -I.. -Iflow_simulation_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jflow_simulation_test@exe -o 'flow_simulation_test@exe/meson-generated_.._flow_simulation_test_driver.F90.o' -c flow_simulation_test_driver.F90",
+    "file": "flow_simulation_test_driver.F90",
+    "output": "flow_simulation_test@exe/meson-generated_.._flow_simulation_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iflow_simulation_test@exe -I. -I.. -Iflow_simulation_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jflow_simulation_test@exe -o 'flow_simulation_test@exe/flow_simulation_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/flow_simulation_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/flow_simulation_test.F90",
+    "output": "flow_simulation_test@exe/flow_simulation_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ifluid_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jfluid_test_lib@sta -o 'fluid_test_lib@sta/fluid_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/fluid_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/fluid_test.F90",
+    "output": "fluid_test_lib@sta/fluid_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ifluid_test@exe -I. -I.. -Ifluid_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jfluid_test@exe -o 'fluid_test@exe/meson-generated_.._fluid_test_driver.F90.o' -c fluid_test_driver.F90",
+    "file": "fluid_test_driver.F90",
+    "output": "fluid_test@exe/meson-generated_.._fluid_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ifluid_test@exe -I. -I.. -Ifluid_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jfluid_test@exe -o 'fluid_test@exe/fluid_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/fluid_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/fluid_test.F90",
+    "output": "fluid_test@exe/fluid_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ifson_mpi_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jfson_mpi_test_lib@sta -o 'fson_mpi_test_lib@sta/fson_mpi_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/fson_mpi_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/fson_mpi_test.F90",
+    "output": "fson_mpi_test_lib@sta/fson_mpi_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ifson_mpi_test@exe -I. -I.. -Ifson_mpi_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jfson_mpi_test@exe -o 'fson_mpi_test@exe/meson-generated_.._fson_mpi_test_driver.F90.o' -c fson_mpi_test_driver.F90",
+    "file": "fson_mpi_test_driver.F90",
+    "output": "fson_mpi_test@exe/meson-generated_.._fson_mpi_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ifson_mpi_test@exe -I. -I.. -Ifson_mpi_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jfson_mpi_test@exe -o 'fson_mpi_test@exe/fson_mpi_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/fson_mpi_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/fson_mpi_test.F90",
+    "output": "fson_mpi_test@exe/fson_mpi_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -IIAPWS_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -JIAPWS_test_lib@sta -o 'IAPWS_test_lib@sta/IAPWS_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/IAPWS_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/IAPWS_test.F90",
+    "output": "IAPWS_test_lib@sta/IAPWS_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -IIAPWS_test@exe -I. -I.. -IIAPWS_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -JIAPWS_test@exe -o 'IAPWS_test@exe/meson-generated_.._IAPWS_test_driver.F90.o' -c IAPWS_test_driver.F90",
+    "file": "IAPWS_test_driver.F90",
+    "output": "IAPWS_test@exe/meson-generated_.._IAPWS_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -IIAPWS_test@exe -I. -I.. -IIAPWS_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -JIAPWS_test@exe -o 'IAPWS_test@exe/IAPWS_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/IAPWS_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/IAPWS_test.F90",
+    "output": "IAPWS_test@exe/IAPWS_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -IIFC67_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -JIFC67_test_lib@sta -o 'IFC67_test_lib@sta/IFC67_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/IFC67_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/IFC67_test.F90",
+    "output": "IFC67_test_lib@sta/IFC67_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -IIFC67_test@exe -I. -I.. -IIFC67_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -JIFC67_test@exe -o 'IFC67_test@exe/meson-generated_.._IFC67_test_driver.F90.o' -c IFC67_test_driver.F90",
+    "file": "IFC67_test_driver.F90",
+    "output": "IFC67_test@exe/meson-generated_.._IFC67_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -IIFC67_test@exe -I. -I.. -IIFC67_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -JIFC67_test@exe -o 'IFC67_test@exe/IFC67_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/IFC67_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/IFC67_test.F90",
+    "output": "IFC67_test@exe/IFC67_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iinitial_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jinitial_test_lib@sta -o 'initial_test_lib@sta/initial_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/initial_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/initial_test.F90",
+    "output": "initial_test_lib@sta/initial_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iinitial_test@exe -I. -I.. -Iinitial_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jinitial_test@exe -o 'initial_test@exe/meson-generated_.._initial_test_driver.F90.o' -c initial_test_driver.F90",
+    "file": "initial_test_driver.F90",
+    "output": "initial_test@exe/meson-generated_.._initial_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iinitial_test@exe -I. -I.. -Iinitial_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jinitial_test@exe -o 'initial_test@exe/initial_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/initial_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/initial_test.F90",
+    "output": "initial_test@exe/initial_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iinterpolation_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jinterpolation_test_lib@sta -o 'interpolation_test_lib@sta/interpolation_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/interpolation_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/interpolation_test.F90",
+    "output": "interpolation_test_lib@sta/interpolation_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iinterpolation_test@exe -I. -I.. -Iinterpolation_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jinterpolation_test@exe -o 'interpolation_test@exe/meson-generated_.._interpolation_test_driver.F90.o' -c interpolation_test_driver.F90",
+    "file": "interpolation_test_driver.F90",
+    "output": "interpolation_test@exe/meson-generated_.._interpolation_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iinterpolation_test@exe -I. -I.. -Iinterpolation_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jinterpolation_test@exe -o 'interpolation_test@exe/interpolation_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/interpolation_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/interpolation_test.F90",
+    "output": "interpolation_test@exe/interpolation_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ilist_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jlist_test_lib@sta -o 'list_test_lib@sta/list_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/list_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/list_test.F90",
+    "output": "list_test_lib@sta/list_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ilist_test@exe -I. -I.. -Ilist_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jlist_test@exe -o 'list_test@exe/meson-generated_.._list_test_driver.F90.o' -c list_test_driver.F90",
+    "file": "list_test_driver.F90",
+    "output": "list_test@exe/meson-generated_.._list_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ilist_test@exe -I. -I.. -Ilist_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jlist_test@exe -o 'list_test@exe/list_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/list_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/list_test.F90",
+    "output": "list_test@exe/list_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Imesh_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jmesh_test_lib@sta -o 'mesh_test_lib@sta/mesh_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/mesh_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/mesh_test.F90",
+    "output": "mesh_test_lib@sta/mesh_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Imesh_test@exe -I. -I.. -Imesh_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jmesh_test@exe -o 'mesh_test@exe/meson-generated_.._mesh_test_driver.F90.o' -c mesh_test_driver.F90",
+    "file": "mesh_test_driver.F90",
+    "output": "mesh_test@exe/meson-generated_.._mesh_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Imesh_test@exe -I. -I.. -Imesh_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jmesh_test@exe -o 'mesh_test@exe/mesh_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/mesh_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/mesh_test.F90",
+    "output": "mesh_test@exe/mesh_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iminc_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jminc_test_lib@sta -o 'minc_test_lib@sta/minc_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/minc_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/minc_test.F90",
+    "output": "minc_test_lib@sta/minc_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iminc_test@exe -I. -I.. -Iminc_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jminc_test@exe -o 'minc_test@exe/meson-generated_.._minc_test_driver.F90.o' -c minc_test_driver.F90",
+    "file": "minc_test_driver.F90",
+    "output": "minc_test@exe/meson-generated_.._minc_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iminc_test@exe -I. -I.. -Iminc_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jminc_test@exe -o 'minc_test@exe/minc_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/minc_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/minc_test.F90",
+    "output": "minc_test@exe/minc_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Incg_air_thermodynamics_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jncg_air_thermodynamics_test_lib@sta -o 'ncg_air_thermodynamics_test_lib@sta/ncg_air_thermodynamics_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/ncg_air_thermodynamics_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/ncg_air_thermodynamics_test.F90",
+    "output": "ncg_air_thermodynamics_test_lib@sta/ncg_air_thermodynamics_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Incg_air_thermodynamics_test@exe -I. -I.. -Incg_air_thermodynamics_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jncg_air_thermodynamics_test@exe -o 'ncg_air_thermodynamics_test@exe/meson-generated_.._ncg_air_thermodynamics_test_driver.F90.o' -c ncg_air_thermodynamics_test_driver.F90",
+    "file": "ncg_air_thermodynamics_test_driver.F90",
+    "output": "ncg_air_thermodynamics_test@exe/meson-generated_.._ncg_air_thermodynamics_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Incg_air_thermodynamics_test@exe -I. -I.. -Incg_air_thermodynamics_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jncg_air_thermodynamics_test@exe -o 'ncg_air_thermodynamics_test@exe/ncg_air_thermodynamics_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/ncg_air_thermodynamics_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/ncg_air_thermodynamics_test.F90",
+    "output": "ncg_air_thermodynamics_test@exe/ncg_air_thermodynamics_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Incg_co2_thermodynamics_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jncg_co2_thermodynamics_test_lib@sta -o 'ncg_co2_thermodynamics_test_lib@sta/ncg_co2_thermodynamics_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/ncg_co2_thermodynamics_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/ncg_co2_thermodynamics_test.F90",
+    "output": "ncg_co2_thermodynamics_test_lib@sta/ncg_co2_thermodynamics_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Incg_co2_thermodynamics_test@exe -I. -I.. -Incg_co2_thermodynamics_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jncg_co2_thermodynamics_test@exe -o 'ncg_co2_thermodynamics_test@exe/meson-generated_.._ncg_co2_thermodynamics_test_driver.F90.o' -c ncg_co2_thermodynamics_test_driver.F90",
+    "file": "ncg_co2_thermodynamics_test_driver.F90",
+    "output": "ncg_co2_thermodynamics_test@exe/meson-generated_.._ncg_co2_thermodynamics_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Incg_co2_thermodynamics_test@exe -I. -I.. -Incg_co2_thermodynamics_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jncg_co2_thermodynamics_test@exe -o 'ncg_co2_thermodynamics_test@exe/ncg_co2_thermodynamics_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/ncg_co2_thermodynamics_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/ncg_co2_thermodynamics_test.F90",
+    "output": "ncg_co2_thermodynamics_test@exe/ncg_co2_thermodynamics_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ipowertable_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jpowertable_test_lib@sta -o 'powertable_test_lib@sta/powertable_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/powertable_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/powertable_test.F90",
+    "output": "powertable_test_lib@sta/powertable_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ipowertable_test@exe -I. -I.. -Ipowertable_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jpowertable_test@exe -o 'powertable_test@exe/meson-generated_.._powertable_test_driver.F90.o' -c powertable_test_driver.F90",
+    "file": "powertable_test_driver.F90",
+    "output": "powertable_test@exe/meson-generated_.._powertable_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Ipowertable_test@exe -I. -I.. -Ipowertable_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jpowertable_test@exe -o 'powertable_test@exe/powertable_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/powertable_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/powertable_test.F90",
+    "output": "powertable_test@exe/powertable_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Irelative_permeability_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jrelative_permeability_test_lib@sta -o 'relative_permeability_test_lib@sta/relative_permeability_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/relative_permeability_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/relative_permeability_test.F90",
+    "output": "relative_permeability_test_lib@sta/relative_permeability_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Irelative_permeability_test@exe -I. -I.. -Irelative_permeability_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jrelative_permeability_test@exe -o 'relative_permeability_test@exe/meson-generated_.._relative_permeability_test_driver.F90.o' -c relative_permeability_test_driver.F90",
+    "file": "relative_permeability_test_driver.F90",
+    "output": "relative_permeability_test@exe/meson-generated_.._relative_permeability_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Irelative_permeability_test@exe -I. -I.. -Irelative_permeability_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jrelative_permeability_test@exe -o 'relative_permeability_test@exe/relative_permeability_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/relative_permeability_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/relative_permeability_test.F90",
+    "output": "relative_permeability_test@exe/relative_permeability_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Irock_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jrock_test_lib@sta -o 'rock_test_lib@sta/rock_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/rock_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/rock_test.F90",
+    "output": "rock_test_lib@sta/rock_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Irock_test@exe -I. -I.. -Irock_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jrock_test@exe -o 'rock_test@exe/meson-generated_.._rock_test_driver.F90.o' -c rock_test_driver.F90",
+    "file": "rock_test_driver.F90",
+    "output": "rock_test@exe/meson-generated_.._rock_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Irock_test@exe -I. -I.. -Irock_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jrock_test@exe -o 'rock_test@exe/rock_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/rock_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/rock_test.F90",
+    "output": "rock_test@exe/rock_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Irock_control_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jrock_control_test_lib@sta -o 'rock_control_test_lib@sta/rock_control_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/rock_control_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/rock_control_test.F90",
+    "output": "rock_control_test_lib@sta/rock_control_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Irock_control_test@exe -I. -I.. -Irock_control_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jrock_control_test@exe -o 'rock_control_test@exe/meson-generated_.._rock_control_test_driver.F90.o' -c rock_control_test_driver.F90",
+    "file": "rock_control_test_driver.F90",
+    "output": "rock_control_test@exe/meson-generated_.._rock_control_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Irock_control_test@exe -I. -I.. -Irock_control_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jrock_control_test@exe -o 'rock_control_test@exe/rock_control_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/rock_control_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/rock_control_test.F90",
+    "output": "rock_control_test@exe/rock_control_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iroot_finder_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jroot_finder_test_lib@sta -o 'root_finder_test_lib@sta/root_finder_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/root_finder_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/root_finder_test.F90",
+    "output": "root_finder_test_lib@sta/root_finder_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iroot_finder_test@exe -I. -I.. -Iroot_finder_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jroot_finder_test@exe -o 'root_finder_test@exe/meson-generated_.._root_finder_test_driver.F90.o' -c root_finder_test_driver.F90",
+    "file": "root_finder_test_driver.F90",
+    "output": "root_finder_test@exe/meson-generated_.._root_finder_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iroot_finder_test@exe -I. -I.. -Iroot_finder_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jroot_finder_test@exe -o 'root_finder_test@exe/root_finder_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/root_finder_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/root_finder_test.F90",
+    "output": "root_finder_test@exe/root_finder_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Isource_control_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jsource_control_test_lib@sta -o 'source_control_test_lib@sta/source_control_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/source_control_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/source_control_test.F90",
+    "output": "source_control_test_lib@sta/source_control_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Isource_control_test@exe -I. -I.. -Isource_control_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jsource_control_test@exe -o 'source_control_test@exe/meson-generated_.._source_control_test_driver.F90.o' -c source_control_test_driver.F90",
+    "file": "source_control_test_driver.F90",
+    "output": "source_control_test@exe/meson-generated_.._source_control_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Isource_control_test@exe -I. -I.. -Isource_control_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jsource_control_test@exe -o 'source_control_test@exe/source_control_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/source_control_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/source_control_test.F90",
+    "output": "source_control_test@exe/source_control_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Isource_setup_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jsource_setup_test_lib@sta -o 'source_setup_test_lib@sta/source_setup_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/source_setup_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/source_setup_test.F90",
+    "output": "source_setup_test_lib@sta/source_setup_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Isource_setup_test@exe -I. -I.. -Isource_setup_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jsource_setup_test@exe -o 'source_setup_test@exe/meson-generated_.._source_setup_test_driver.F90.o' -c source_setup_test_driver.F90",
+    "file": "source_setup_test_driver.F90",
+    "output": "source_setup_test@exe/meson-generated_.._source_setup_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Isource_setup_test@exe -I. -I.. -Isource_setup_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jsource_setup_test@exe -o 'source_setup_test@exe/source_setup_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/source_setup_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/source_setup_test.F90",
+    "output": "source_setup_test@exe/source_setup_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Isource_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jsource_test_lib@sta -o 'source_test_lib@sta/source_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/source_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/source_test.F90",
+    "output": "source_test_lib@sta/source_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Isource_test@exe -I. -I.. -Isource_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jsource_test@exe -o 'source_test@exe/meson-generated_.._source_test_driver.F90.o' -c source_test_driver.F90",
+    "file": "source_test_driver.F90",
+    "output": "source_test@exe/meson-generated_.._source_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Isource_test@exe -I. -I.. -Isource_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jsource_test@exe -o 'source_test@exe/source_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/source_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/source_test.F90",
+    "output": "source_test@exe/source_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Itimestepper_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jtimestepper_test_lib@sta -o 'timestepper_test_lib@sta/timestepper_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/timestepper_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/timestepper_test.F90",
+    "output": "timestepper_test_lib@sta/timestepper_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Itimestepper_test@exe -I. -I.. -Itimestepper_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jtimestepper_test@exe -o 'timestepper_test@exe/meson-generated_.._timestepper_test_driver.F90.o' -c timestepper_test_driver.F90",
+    "file": "timestepper_test_driver.F90",
+    "output": "timestepper_test@exe/meson-generated_.._timestepper_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Itimestepper_test@exe -I. -I.. -Itimestepper_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jtimestepper_test@exe -o 'timestepper_test@exe/timestepper_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/timestepper_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/timestepper_test.F90",
+    "output": "timestepper_test@exe/timestepper_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iutils_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jutils_test_lib@sta -o 'utils_test_lib@sta/utils_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/utils_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/utils_test.F90",
+    "output": "utils_test_lib@sta/utils_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iutils_test@exe -I. -I.. -Iutils_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jutils_test@exe -o 'utils_test@exe/meson-generated_.._utils_test_driver.F90.o' -c utils_test_driver.F90",
+    "file": "utils_test_driver.F90",
+    "output": "utils_test@exe/meson-generated_.._utils_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Iutils_test@exe -I. -I.. -Iutils_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jutils_test@exe -o 'utils_test@exe/utils_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/utils_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/utils_test.F90",
+    "output": "utils_test@exe/utils_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Izone_test_lib@sta -I. -I.. -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -fPIC -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jzone_test_lib@sta -o 'zone_test_lib@sta/zone_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/zone_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/zone_test.F90",
+    "output": "zone_test_lib@sta/zone_test.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Izone_test@exe -I. -I.. -Izone_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jzone_test@exe -o 'zone_test@exe/meson-generated_.._zone_test_driver.F90.o' -c zone_test_driver.F90",
+    "file": "zone_test_driver.F90",
+    "output": "zone_test@exe/meson-generated_.._zone_test_driver.F90.o"
+  },
+  {
+    "directory": "/home/arthie/NaCL_EOS/waiwera/build",
+    "command": "gfortran -Izone_test@exe -I. -I.. -Izone_test_lib@sta -Iunit_test_utils@sha -Iwaiwera@sha -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include -I/home/arthie/include -I/usr/include/x86_64-linux-gnu/mpich -fdiagnostics-color=always -pipe -Wall -O3 -D_FILE_OFFSET_BITS=64 -ffile-prefix-map=/build/mpich-0xgrG5/mpich-4.0=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -fallow-invalid-boz -fallow-argument-mismatch -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -ffree-line-length-none -Wno-unused-dummy-argument -Wno-unused-function -Wno-return-type -Wno-maybe-uninitialized -Jzone_test@exe -o 'zone_test@exe/zone_test.F90.o' -c /home/arthie/NaCL_EOS/waiwera/test/unit/src/zone_test.F90",
+    "file": "/home/arthie/NaCL_EOS/waiwera/test/unit/src/zone_test.F90",
+    "output": "zone_test@exe/zone_test.F90.o"
+  }
+]

@@ -1,0 +1,206 @@
+Build started at 2023-08-31T17:05:14.161724
+Main binary: /usr/bin/python3
+Build Options: -Dlibdir=lib -Dset_rpath=true -Dprefix=/home/arthie -Dbuildtype=release
+Python system: Linux
+The Meson build system
+Version: 0.53.0
+Source dir: /home/arthie/NaCL_EOS/waiwera
+Build dir: /home/arthie/NaCL_EOS/waiwera/build
+Build type: native build
+Project name: waiwera
+Project version: 1.3.1
+No FFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+Fortran compiler for the build machine: gfortran (gcc 11.4.0 "GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+Fortran linker for the build machine: gfortran GNU ld.bfd 2.38
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/arthie/NaCL_EOS/waiwera/build/meson-private/sanitycheckc.c -o /home/arthie/NaCL_EOS/waiwera/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/arthie/NaCL_EOS/waiwera/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C linker for the build machine: cc GNU ld.bfd 2.38
+No FFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+Fortran compiler for the host machine: gfortran (gcc 11.4.0 "GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+Fortran linker for the host machine: gfortran GNU ld.bfd 2.38
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/arthie/NaCL_EOS/waiwera/build/meson-private/sanitycheckc.c -o /home/arthie/NaCL_EOS/waiwera/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/arthie/NaCL_EOS/waiwera/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C linker for the host machine: cc GNU ld.bfd 2.38
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+No FFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.HOST at ['/usr/bin/pkg-config']
+Determining dependency 'ompi-fort' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config --modversion ompi-fort` -> 1
+
+Command ['/usr/bin/mpifort', '--showme:compile'] failed to run:
+Standard output
+ 
+Standard error
+ gfortran: error: unrecognized command-line option '--showme:compile'
+
+Run-time dependency MPI for fortran found: YES mpifort for MPICH version 4.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'PETSc' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config --modversion PETSc` -> 0
+3.15.5
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config --cflags PETSc` -> 0
+-I/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/include -I/home/arthie/NaCL_EOS/waiwera/external/PETSc/include
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config PETSc --libs` -> 0
+-L/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/lib -lpetsc
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config PETSc --libs` -> 0
+-L/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/lib -lpetsc
+Running compile:
+Working directory:  /home/arthie/NaCL_EOS/waiwera/build/meson-private/tmpnh_vn0kc
+Command line:  cc /home/arthie/NaCL_EOS/waiwera/build/meson-private/tmpnh_vn0kc/testfile.c -o /home/arthie/NaCL_EOS/waiwera/build/meson-private/tmpnh_vn0kc/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/arthie/NaCL_EOS/waiwera/build/meson-private/tmpf74g3rqm
+Command line:  cc /home/arthie/NaCL_EOS/waiwera/build/meson-private/tmpf74g3rqm/testfile.c -o /home/arthie/NaCL_EOS/waiwera/build/meson-private/tmpf74g3rqm/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/11/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/11/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/11/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency petsc found: YES 3.15.5
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'fson' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config --modversion fson` -> 0
+1.0.5
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config --cflags fson` -> 0
+-I/home/arthie/include
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config fson --libs` -> 0
+-L/home/arthie/lib -lfson
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config fson --libs` -> 0
+-L/home/arthie/lib -lfson
+Run-time dependency fson found: YES 1.0.5
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'zofu' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config --modversion zofu` -> 0
+1.1.1
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config --cflags zofu` -> 0
+-I/home/arthie/include
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config zofu --libs` -> 0
+-L/home/arthie/lib -lzofu
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config zofu --libs` -> 0
+-L/home/arthie/lib -lzofu
+Run-time dependency zofu found: YES 1.1.1
+PKG_CONFIG_PATH: /home/arthie/lib/pkgconfig:
+Called `/usr/bin/pkg-config --variable=libdir PETSc` -> 0
+/home/arthie/NaCL_EOS/waiwera/external/PETSc/release/lib
+Got pkgconfig variable libdir : /home/arthie/NaCL_EOS/waiwera/external/PETSc/release/lib
+Program zofu-driver found: YES (/home/arthie/bin/zofu-driver)
+Adding test "capillary_pressure_test"
+Adding test "cell_test"
+Adding test "dag_test"
+Adding test "dictionary_test"
+Adding test "dm_utils_test"
+Adding test "eos_test"
+Adding test "eos_we_test"
+Adding test "eos_wge_test"
+Adding test "eos_w_test"
+Adding test "face_test"
+Adding test "flow_simulation_test"
+Adding test "fluid_test"
+Adding test "fson_mpi_test"
+Adding test "IAPWS_test"
+Adding test "IFC67_test"
+Adding test "initial_test"
+Adding test "interpolation_test"
+Adding test "list_test"
+Adding test "mesh_test"
+Adding test "minc_test"
+Adding test "ncg_air_thermodynamics_test"
+Adding test "ncg_co2_thermodynamics_test"
+Adding test "powertable_test"
+Adding test "relative_permeability_test"
+Adding test "rock_test"
+Adding test "rock_control_test"
+Adding test "root_finder_test"
+Adding test "source_control_test"
+Adding test "source_setup_test"
+Adding test "source_test"
+Adding test "timestepper_test"
+Adding test "utils_test"
+Adding test "zone_test"
+Build targets in project: 102
+
+Found ninja-1.10.1 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/arthie/NaCL_EOS/waiwera/build/meson-private/tmpy9p9jsib
+Command line:  gfortran /home/arthie/NaCL_EOS/waiwera/build/meson-private/tmpy9p9jsib/testfile.f90 -o /home/arthie/NaCL_EOS/waiwera/build/meson-private/tmpy9p9jsib/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/11/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/11/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/11/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
